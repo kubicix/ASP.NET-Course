@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rGwXavgIxd8GXIceBUIiVAtA8jkvGRkPN3XO+9w5slO3SGXP0tLmHPks3WiO+unCZLRcbSVzEUt8RMuEzWmKrg==",
+  "dgSpecHash": "rAitg0b8CklMHVQyaPLPL1K8coyp8tQnf/veZwiVou/Pv7qfkv++zSKYduT5NSkgokBdyEHqyQ9R1ZKcO7OfOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kubil\\Desktop\\ASP.NET Udemy\\basics\\basics.csproj",
+  "projectFilePath": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\basics.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

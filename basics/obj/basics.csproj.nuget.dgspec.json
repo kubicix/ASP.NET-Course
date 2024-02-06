@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubil\\Desktop\\ASP.NET Udemy\\basics\\basics.csproj": {}
+    "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubil\\Desktop\\ASP.NET Udemy\\basics\\basics.csproj": {
+    "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubil\\Desktop\\ASP.NET Udemy\\basics\\basics.csproj",
+        "projectUniqueName": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\basics.csproj",
         "projectName": "basics",
-        "projectPath": "C:\\Users\\kubil\\Desktop\\ASP.NET Udemy\\basics\\basics.csproj",
+        "projectPath": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\basics.csproj",
         "packagesPath": "C:\\Users\\kubil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubil\\Desktop\\ASP.NET Udemy\\basics\\obj\\",
+        "outputPath": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kubil\\AppData\\Roaming\\NuGet\\NuGet.Config",
