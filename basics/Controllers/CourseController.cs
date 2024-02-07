@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using basics.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace basics.Controllers
@@ -8,14 +9,18 @@ namespace basics.Controllers
     public class CourseController : Controller
     {
         // course/index
-        public string Index()
+        public IActionResult Index()
         {
-            return "course/index";
+            var course = new Course();
+            course.Id=1;
+            course.Title = "ASP.NET Core Course";
+            course.Description = "Nice course for web development";
+            return View(course);
         }
         // course/list
-        public string List()
+        public IActionResult List()
         {
-            return "course/list";
+            return View("CourseList");
         }
     }
 }
