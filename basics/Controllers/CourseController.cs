@@ -20,7 +20,29 @@ namespace basics.Controllers
         // course/list
         public IActionResult List()
         {
-            return View("CourseList");
+            var kurslar = new List<Course>(){
+                new Course() {
+                    Id =1,
+                    Title="aspnet course",
+                    Description="nice course"
+                },
+                new Course() {
+                    Id =2,
+                    Title="php",
+                    Description="nice course"
+                },
+                new Course() {
+                    Id =3,
+                    Title="django course",
+                    Description="nice course"
+                },
+                new Course() {
+                    Id =4,
+                    Title="Javascript course",
+                    Description="nice course"
+                }
+            };
+            return View("CourseList",kurslar);
         }
     }
 }
