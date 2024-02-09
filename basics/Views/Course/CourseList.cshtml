@@ -1,23 +1,19 @@
 @model List<Course>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Course List</h1>
-    @foreach (var course in Model)
-    {
-        <div class="course" style="border: 2px solid #ddd;
-        padding: 10px;
-        margin-bottom: 10px;
-        box-shadow: 1px 1px black;"> 
-            <h2>@course.Title</h2>
-            <p>@course.Description</p>
+    
+    @foreach(var course in Model){
+        <div class="card mb-3" id="course_@course.Id">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/img/@course.Image" class="img-fluid rounded-start">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h2>@course.Title</h2>
+                        </h5>
+                        <p class="card-text">@course.Description</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    }
-</body>
-</html>
+    } 
