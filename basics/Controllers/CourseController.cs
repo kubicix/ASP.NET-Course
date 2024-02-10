@@ -18,6 +18,17 @@ namespace basics.Controllers
             course.Image="1.jpg";
             return View(course);
         }
+
+        public IActionResult Details()
+        {
+            var course = new Course();
+            course.Id=1;
+            course.Title = "ASP.NET Core Course";
+            course.Description = "Nice course for web development";
+            course.Image="1.jpg";
+            return View(course);
+        }
+
         // course/list
         public IActionResult List()
         {

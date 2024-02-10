@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8z1mZ7sJG8Za89WV+13zbTCAFujYlFWNbddNCoFdQEE=",
+  "Hash": "TMatg7ynpqrMSnmgtomNRAqkjm+b1m7hBSPindOKRbc=",
   "Source": "basics",
   "BasePath": "_content/basics",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\basics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\wwwroot\\css\\contact.css",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "css/contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
       "Identity": "C:\\Users\\kubil\\Desktop\\asp.net\\basics\\wwwroot\\css\\site.css",

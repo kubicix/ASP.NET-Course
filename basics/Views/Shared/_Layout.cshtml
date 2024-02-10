@@ -5,23 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CourseApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"  />
+    @RenderSection("Styles",false)
 
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-            <div class="container">
-                <a href="#" class="navbar-brand">CourseApp</a>
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a href="/Course" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/Course/List" class="nav-link">Courses</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        @await Html.PartialAsync("_Navbar")
+        @RenderSection("Header", false)
     </header>
     <div class="container mt-3">
         <main>
@@ -29,5 +19,7 @@
         </main>
     </div>
     
+    
+    @RenderSection("Scripts" , false)
 </body>
 </html>
