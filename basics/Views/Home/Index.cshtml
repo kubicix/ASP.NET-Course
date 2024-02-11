@@ -1,5 +1,30 @@
-@section Header{
+@model List<Course>
+
+    @section Header{
     @await Html.PartialAsync("_Header")
 }
 
 <h1>Home Page</h1>
+<div class="row">
+    @foreach(var course in Model){
+        @if(course.isActive && course.isHome){
+            <div class="col-3">
+                <div class="card">
+                    <img style=" width: 100%;
+                    height: auto;" class="card-img-top" src="~/img/@course.Image" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @course.Title
+                        </h5>
+                        <p class="card-text">
+                            @course.Description
+                        </p>
+                        <a class="btn btn-primary" asp-controller="Course" asp-action="Details"
+                        asp-route-id="@course.Id">Detay</a>
+                    </div>
+                </div>
+            </div>
+        }
+        
+    } 
+</div>
