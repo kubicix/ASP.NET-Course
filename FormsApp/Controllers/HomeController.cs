@@ -1,5 +1,6 @@
 ﻿using FormsApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
 
 namespace FormsApp.Controllers
@@ -13,20 +14,43 @@ namespace FormsApp.Controllers
 			
 		}
 
-		public IActionResult Index(string searchString)
+		public IActionResult Index(string searchString,string category)
 		{
 			var products = Repository.Products;
 
 			if (!String.IsNullOrEmpty(searchString))
 			{
 				ViewBag.SearchString = searchString;
-				products = products.Where(p => p.Name.ToLower().Contains(searchString)).ToList();
+                searchString = searchString.ToLower(); // searchString değerini küçük harfe dönüştür
+                products = products.Where(p => p.Name.ToLower().Contains(searchString)).ToList();
+            }
+
+			if (!String.IsNullOrEmpty(category) && category!="0")
+			{
+				products = products.Where(p => p.CategoryId == int.Parse(category)).ToList();
 			}
-			return View(products);
+
+			//ViewBag.Categories = new SelectList(Repository.Categories,"CategoryId","Name",category);
+			var model = new ProductViewModel()
+			{
+				Products = products,
+				Categories = Repository.Categories,
+				SelectedCategory = category
+			};
+
+			return View(model);
 			
 		}
 
-		public IActionResult Privacy()
+		public IActionResult Create()
+		{
+			ViewBag.Categories = Repository.Categories;
+			return View();
+		}
+
+		//POST
+		[HttpPost]
+		public IActionResult Create(Product model)
 		{
 			return View();
 		}
