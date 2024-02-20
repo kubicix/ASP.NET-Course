@@ -103,5 +103,10 @@
 				return _categories;
 			}
 		}
+
+		public static void CreateProduct(Product model)
+		{
+			_products.Add(model);
+		}
 	}
 }

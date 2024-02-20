@@ -6,11 +6,12 @@ namespace FormsApp.Models
 	{
         [Display(Name="Product Id")]
         public int ProductId { get; set; }
+        [Required]
 		[Display(Name = "Product Name")]
 		public string? Name { get; set; }
         public decimal Price { get; set; }
         public string? Image { get; set; }
-        public bool? IsActive { get; set; }
+        public bool IsActive { get; set; }
         public int CategoryId { get; set; }
     }
 }
