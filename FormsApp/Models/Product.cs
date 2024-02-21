@@ -7,12 +7,16 @@ namespace FormsApp.Models
         [Display(Name="Product Id")]
         public int ProductId { get; set; }
         [Required]
-		[Display(Name = "Product Name")]
-		public string? Name { get; set; }
+        [StringLength(100)]
+        [Display(Name = "Product Name")]
+        public string Name { get; set; } = null!;
+        [Required]
+        [Range(0,200000)]
         public decimal Price { get; set; }
-        public string? Image { get; set; }
+        public string? Image { get; set; } = string.Empty;
         public bool IsActive { get; set; }
-        public int CategoryId { get; set; }
+        [Required]
+        public int? CategoryId { get; set; }
     }
 }
 

@@ -50,10 +50,38 @@ namespace FormsApp.Controllers
 
 		//POST
 		[HttpPost]
-		public IActionResult Create(Product model)
+		public async Task<IActionResult> Create(Product model, IFormFile imageFile)
 		{
-			Repository.CreateProduct(model);
-			return RedirectToAction("Index");
+			var allowedExtensions = new[]
+			{
+				".jpg",".jpeg",".png"
+			};
+			var extension = Path.GetExtension(imageFile.FileName);//abc.jpg   extension=jpg
+			var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extension}");
+			var path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img",randomFileName);
+
+			if (imageFile != null)
+			{
+				if(!allowedExtensions.Contains(extension))
+				{
+					ModelState.AddModelError("","Enter a valid Image.");
+				}
+			}
+
+			if(ModelState.IsValid)
+			{
+				using (var stream = new FileStream(path, FileMode.Create))
+				{
+					await imageFile.CopyToAsync(stream);
+				}
+				model.Image = randomFileName;
+				model.ProductId = Repository.Products.Count+1;
+				Repository.CreateProduct(model);
+				return RedirectToAction("Index");
+			}
+			ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
+			return View(model);
+			
 		}
 
 	}
