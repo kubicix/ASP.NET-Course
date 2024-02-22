@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aGuDxyKnon5C9exLPFkpfRIK+bwPj/c6P4jboFXCLLE=",
+  "Hash": "V4dxNCHTSDmpT2iWYo98FUltmtVgXk1bzEuGlepjszE=",
   "Source": "FormsApp",
   "BasePath": "_content/FormsApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\kubil\\Desktop\\asp.net\\FormsApp\\wwwroot\\img\\0d09c636-f012-4a74-a074-cc162fbd69ef.jpg",
+      "SourceId": "FormsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubil\\Desktop\\asp.net\\FormsApp\\wwwroot\\",
+      "BasePath": "_content/FormsApp",
+      "RelativePath": "img/0d09c636-f012-4a74-a074-cc162fbd69ef.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\0d09c636-f012-4a74-a074-cc162fbd69ef.jpg"
     },
     {
       "Identity": "C:\\Users\\kubil\\Desktop\\asp.net\\FormsApp\\wwwroot\\img\\1.jpg",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\e0c43431-6fae-4db1-8fb8-4d9a052f0227.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kubil\\Desktop\\asp.net\\FormsApp\\wwwroot\\img\\fb507d48-0270-4149-bebb-4c7a63a07d11.jpg",
+      "SourceId": "FormsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubil\\Desktop\\asp.net\\FormsApp\\wwwroot\\",
+      "BasePath": "_content/FormsApp",
+      "RelativePath": "img/fb507d48-0270-4149-bebb-4c7a63a07d11.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fb507d48-0270-4149-bebb-4c7a63a07d11.jpg"
     },
     {
       "Identity": "C:\\Users\\kubil\\Desktop\\asp.net\\FormsApp\\wwwroot\\js\\site.js",
