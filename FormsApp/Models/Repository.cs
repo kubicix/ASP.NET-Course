@@ -38,7 +38,7 @@
 					ProductId = 2,
 					Name = "IPhone 14",
 					Price = 70000,
-					IsActive = true,
+					IsActive = false,
 					Image = "2.jpg",
 					CategoryId = 1
 				}
@@ -60,7 +60,7 @@
 					ProductId = 4,
 					Name = "IPhone 16",
 					Price = 90000,
-					IsActive = true,
+					IsActive = false,
 					Image = "4.jpg",
 					CategoryId = 1
 				}
@@ -71,7 +71,7 @@
 					ProductId = 5,
 					Name = "Macbook Air",
 					Price = 80000,
-					IsActive = true,
+					IsActive = false,
 					Image = "5.jpg",
 					CategoryId = 2
 				}
@@ -102,11 +102,24 @@
 			var entity=_products.FirstOrDefault(p=>p.ProductId==updatedProduct.ProductId);
 			if(entity != null)
 			{
-				entity.Name = updatedProduct.Name;
+				if (!string.IsNullOrEmpty(updatedProduct.Name))
+				{
+					entity.Name = updatedProduct.Name;
+				}
+				
 				entity.Price = updatedProduct.Price;
 				entity.Image = updatedProduct.Image;
 				entity.IsActive = updatedProduct.IsActive;
 				entity.CategoryId= updatedProduct.CategoryId;
+			}
+		}
+
+		public static void EditIsActive(Product updatedProduct)
+		{
+			var entity = _products.FirstOrDefault(p => p.ProductId == updatedProduct.ProductId);
+			if (entity != null)
+			{
+				entity.IsActive = updatedProduct.IsActive;
 			}
 		}
 
@@ -131,5 +144,7 @@
 		{
 			_products.Add(model);
 		}
+
+
 	}
 }
