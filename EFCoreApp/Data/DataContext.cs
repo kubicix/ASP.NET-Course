@@ -1,14 +1,27 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace EFCoreApp.Data
 {
-	public class DataContext:DbContext
+	public class DataContext : DbContext
 	{
-		public DbSet<Kurs> Kurslar => Set<Kurs>();
-        public DbSet<Ogrenci> Ogrenciler => Set<Ogrenci>();
-		public DbSet<KursKayit> KursKayitlari => Set<KursKayit>();
-	}
+		private readonly IConfiguration _configuration;
 
-	// code-first => entity, dbcontext => database (sqlite)
-	// database-first => sql server
+		public DataContext(DbContextOptions<DataContext> options, IConfiguration configuration) : base(options)
+		{
+			_configuration = configuration;
+		}
+
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		{
+			if (!optionsBuilder.IsConfigured)
+			{
+				optionsBuilder.UseSqlite(_configuration.GetConnectionString("database"));
+			}
+		}
+
+		public DbSet<Kurs> Kurslar { get; set; }
+		public DbSet<Ogrenci> Ogrenciler { get; set; }
+		public DbSet<KursKayit> KursKayitlari { get; set; }
+	}
 }
