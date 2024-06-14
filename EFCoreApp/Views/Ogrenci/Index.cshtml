@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EFCoreApp.Data.Ogrenci>
+
+@{
+	ViewData["Title"] = "Öğrenci Listesi";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:150px">Öğrenci ID</th>
+			<th>Öğrenci Adı</th>
+			<th>Öğrenci Soyadı</th>
+			<th style="width:150px">Kontroller</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@Html.DisplayFor(modelItem => item.OgrenciId)</td>
+				<td>@Html.DisplayFor(modelItem => item.OgrenciAd)</td>
+				<td>@Html.DisplayFor(modelItem => item.OgrenciSoyad)</td>
+				<td>
+					<a href="" class="btn btn-sm btn-primary">Details</a>
+					<a href="" class="btn btn-sm btn-danger">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<a href="/Ogrenci/Create" class="btn btn-primary">Öğrenci Ekle</a>
