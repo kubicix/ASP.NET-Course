@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -75,8 +71,7 @@
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-13T10:15:46.468Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,8 +87,7 @@
               "RelativeToolTip": "Views\\Ogrenci\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T10:01:37.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T10:01:37.187Z"
             },
             {
               "$type": "Document",
@@ -105,8 +99,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T10:16:07.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T10:16:07.719Z"
             },
             {
               "$type": "Document",
@@ -116,7 +109,7 @@
               "RelativeDocumentMoniker": "Controllers\\OgrenciController.cs",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\OgrenciController.cs",
               "RelativeToolTip": "Controllers\\OgrenciController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwCcAAAAdAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwDkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T10:14:46.534Z",
               "EditorCaption": ""
@@ -129,7 +122,7 @@
               "RelativeDocumentMoniker": "Views\\Ogrenci\\Edit.cshtml",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
               "RelativeToolTip": "Views\\Ogrenci\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-15T10:21:15.51Z",
               "EditorCaption": ""
@@ -137,18 +130,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Ogrenci.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Ogrenci.cs",
-              "RelativeDocumentMoniker": "Data\\Ogrenci.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Ogrenci.cs",
-              "RelativeToolTip": "Data\\Ogrenci.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:27:01.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -160,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "EFCoreApp.csproj",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\EFCoreApp.csproj",
               "RelativeDocumentMoniker": "EFCoreApp.csproj",
@@ -172,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -184,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -196,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -208,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "KursKayit.cs",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\KursKayit.cs",
               "RelativeDocumentMoniker": "Data\\KursKayit.cs",
@@ -220,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Kurs.cs",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Kurs.cs",
               "RelativeDocumentMoniker": "Data\\Kurs.cs",
