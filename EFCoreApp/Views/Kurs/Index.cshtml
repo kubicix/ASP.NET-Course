@@ -1,0 +1,32 @@
+﻿@model IEnumerable<EFCoreApp.Data.Kurs>
+
+@{
+	ViewData["Title"] = "Kurs Listesi";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:150px">Kurs ID</th>
+			<th>Kurs Adı</th>
+			<th>Kontroller</th>
+			
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@Html.DisplayFor(modelItem => item.KursId)</td>
+				<td>@Html.DisplayFor(modelItem => item.Baslik)</td>
+				<td>
+					<a asp-controller="Kurs" asp-action="Edit" asp-route-id="@item.KursId" class="btn btn-sm btn-primary">Edit</a>
+					<a asp-action="Delete" asp-route-id="@item.KursId" class="btn btn-sm btn-danger">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<a href="/Kurs/Create" class="btn btn-primary">Kurs Ekle</a>
