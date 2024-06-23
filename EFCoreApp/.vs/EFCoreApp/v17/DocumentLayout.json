@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\ogrenci\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Kurs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Index.cshtml",
-              "RelativeToolTip": "Views\\Kurs\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurs\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Kurs\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T10:40:16.474Z",
+              "WhenOpened": "2024-06-23T10:34:34.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogrenci\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ogrenci\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogrenci\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Ogrenci\\Delete.cshtml",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Kurs\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T11:30:33.478Z"
+              "WhenOpened": "2024-06-23T10:22:36.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "KursController.cs",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\KursController.cs",
               "RelativeDocumentMoniker": "Controllers\\KursController.cs",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\KursController.cs",
               "RelativeToolTip": "Controllers\\KursController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAcwGYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T10:29:05.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Kurs\\Create.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Create.cshtml",
-              "RelativeToolTip": "Views\\Kurs\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T10:31:19.111Z",
               "EditorCaption": ""
             },
             {
@@ -97,8 +81,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAABYAAAAAAAAAAAAAACMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T10:16:07.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T10:16:07.719Z"
             }
           ]
         }
