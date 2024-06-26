@@ -37,7 +37,11 @@ namespace EFCoreApp.Controllers
 				return NotFound();
 			}
 
-			var ogr = await _context.Ogrenciler.FindAsync(id);
+			var ogr = await _context
+				.Ogrenciler
+				.Include(o=> o.KursKayitlari)
+				.ThenInclude(o=>o.Kurs)
+				.FirstOrDefaultAsync(o=>o.OgrenciId == id);
 			//var ogr = await _context.Ogrenciler.FirstOrDefaultAsync(ogrenci => ogrenci.OgrenciId == id);
 			if (ogr == null) 
 			{
