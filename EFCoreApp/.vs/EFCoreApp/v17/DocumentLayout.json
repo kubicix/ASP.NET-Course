@@ -3,72 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\data\\ogretmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:data\\ogretmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\controllers\\ogretmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:controllers\\ogretmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\data\\kurskayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:data\\kurskayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\ogretmen\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\ogretmen\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurskayit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurskayit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\ogrenci\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurskayit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurskayit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\controllers\\kurskayitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:controllers\\kurskayitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\ogretmen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\ogretmen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|c:\\users\\kubil\\desktop\\asp.net\\efcoreapp\\views\\kurs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1910EB8-1866-483F-BF89-66EE8997096E}|EFCoreApp.csproj|solutionrelative:views\\kurs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,217 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Migrations\\DataContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\DataContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Migrations\\DataContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\DataContextModelSnapshot.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T11:21:08.315Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T10:44:53.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ogretmen.cs",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Ogretmen.cs",
               "RelativeDocumentMoniker": "Data\\Ogretmen.cs",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Ogretmen.cs",
               "RelativeToolTip": "Data\\Ogretmen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T10:39:02.212Z"
+              "WhenOpened": "2024-06-28T09:52:47.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogretmen\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogretmen\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogretmen\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Ogretmen\\Edit.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAB0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T09:47:30.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "KursKayit.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\KursKayit.cs",
-              "RelativeDocumentMoniker": "Data\\KursKayit.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\KursKayit.cs",
-              "RelativeToolTip": "Data\\KursKayit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:03:28.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Kurs.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Kurs.cs",
-              "RelativeDocumentMoniker": "Data\\Kurs.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Kurs.cs",
-              "RelativeToolTip": "Data\\Kurs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T10:04:00.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T11:02:26.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Kurs\\Index.cshtml",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Index.cshtml",
               "RelativeToolTip": "Views\\Kurs\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T10:06:46.577Z"
+              "WhenOpened": "2024-06-28T09:44:55.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Kurs\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Kurs\\Edit.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwB0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T10:05:24.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KursController.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\KursController.cs",
-              "RelativeDocumentMoniker": "Controllers\\KursController.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\KursController.cs",
-              "RelativeToolTip": "Controllers\\KursController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwCwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T10:04:26.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\KursKayit\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\KursKayit\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\KursKayit\\Index.cshtml",
-              "RelativeToolTip": "Views\\KursKayit\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogretmen\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogretmen\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogretmen\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ogretmen\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T10:06:57.01Z"
+              "WhenOpened": "2024-06-28T09:42:55.711Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ogrenci\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Ogrenci\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T09:53:53.437Z"
+              "DocumentIndex": 1,
+              "Title": "OgretmenController.cs",
+              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\OgretmenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OgretmenController.cs",
+              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\OgretmenController.cs",
+              "RelativeToolTip": "Controllers\\OgretmenController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T09:30:00.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "OgrenciController.cs",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\OgrenciController.cs",
               "RelativeDocumentMoniker": "Controllers\\OgrenciController.cs",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\OgrenciController.cs",
               "RelativeToolTip": "Controllers\\OgrenciController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwCkAAAAEAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAmwFMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:53:23.351Z"
+              "WhenOpened": "2024-06-26T09:53:23.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\KursKayit\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\KursKayit\\Create.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\KursKayit\\Create.cshtml",
-              "RelativeToolTip": "Views\\KursKayit\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T09:50:12.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Ogrenci.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Ogrenci.cs",
-              "RelativeDocumentMoniker": "Data\\Ogrenci.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Data\\Ogrenci.cs",
-              "RelativeToolTip": "Data\\Ogrenci.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:48:35.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "KursKayitController.cs",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\KursKayitController.cs",
-              "RelativeDocumentMoniker": "Controllers\\KursKayitController.cs",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Controllers\\KursKayitController.cs",
-              "RelativeToolTip": "Controllers\\KursKayitController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAIwBQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T10:28:28.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Kurs\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Kurs\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Kurs\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T10:34:34.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\kubil\\Desktop\\asp.net\\EFCoreApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACUAAACCAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T10:16:07.719Z"
+              "WhenOpened": "2024-06-13T10:16:07.719Z",
+              "EditorCaption": ""
             }
           ]
         }

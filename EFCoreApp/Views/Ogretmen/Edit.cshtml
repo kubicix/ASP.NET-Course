@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Ogretmen
+@{
+
+	ViewData["Title"] = "Öğretmen Güncelleme";
+
+	<h2>@ViewData["Title"]</h2>
+	<hr>
+	<div class="row">
+		<div class="col-8">
+			<form asp-controller="Ogretmen" asp-action="Edit" method="post">
+				<input type="hidden" asp-for="OgretmenId">
+				<div class="mb-3">
+					<label asp-for="Ad" class="form-label">Öğretmen Adı</label>
+					<input asp-for="Ad" class="form-control">
+				</div>
+				<div class="mb-3">
+					<label asp-for="Soyad" class="form-label">Öğretmen Soyadı</label>
+					<input asp-for="Soyad" class="form-control">
+				</div>
+				<div class="mb-3">
+					<label asp-for="Eposta" class="form-label">E-posta</label>
+					<input asp-for="Eposta" class="form-control">
+				</div>
+				<div class="mb-3">
+					<label asp-for="Telefon" class="form-label">Telefon</label>
+					<input asp-for="Telefon" class="form-control">
+				</div>
+				<div class="mb-3">
+					<label asp-for="BaslamaTarihi" class="form-label">Başlama Tarihi</label>
+					<input asp-for="BaslamaTarihi" class="form-control">
+				</div>
+				<button type="submit" class="btn btn-secondary">Kaydet</button>
+			</form>
+		</div>
+	</div>
+
+
+}
