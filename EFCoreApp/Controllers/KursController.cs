@@ -1,5 +1,7 @@
 ﻿using EFCoreApp.Data;
+using EFCoreApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreApp.Controllers
@@ -7,30 +9,33 @@ namespace EFCoreApp.Controllers
 	public class KursController : Controller
 	{
 		private readonly DataContext _context;
-        public KursController(DataContext context)
-        {
-			_context = context;
-        }
-
-        public async Task<IActionResult> Index()
-        {
-            var kurslar = await _context.Kurslar.ToListAsync();
-            return View(kurslar);
-        }
-
-        public IActionResult Create()
+		public KursController(DataContext context)
 		{
+			_context = context;
+		}
+
+		public async Task<IActionResult> Index()
+		{
+			var kurslar = await _context.Kurslar.Include(k => k.Ogretmen).ToListAsync();
+			return View(kurslar);
+		}
+
+		public async Task<IActionResult> Create()
+		{
+			ViewBag.Ogretmenler = new SelectList(await _context.Ogretmenler.ToListAsync(), "OgretmenId", "AdSoyad");
 			return View();
 		}
 
-        [HttpPost]
-        public async Task<IActionResult> Create(Kurs model)
-        {
-            _context.Kurslar.Add(model);
-            await _context.SaveChangesAsync();
-            return RedirectToAction("Index");
-        }
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Create(Kurs model)
+		{
+			_context.Kurslar.Add(model);
+			await _context.SaveChangesAsync();
+			return RedirectToAction("Index");
+		}
 
+		[HttpGet]
 		public async Task<IActionResult> Edit(int? id)
 		{
 			if (id == null)
@@ -38,20 +43,32 @@ namespace EFCoreApp.Controllers
 				return NotFound();
 			}
 
-			var kurs = await _context.Kurslar
-				.Include(k => k.KursKayitlari)
-				.ThenInclude(k => k.Ogrenci)
-				.FirstOrDefaultAsync(k => k.KursId == id); ;
+			var kurs = await _context
+						.Kurslar
+						.Include(k => k.KursKayitlari)
+						.ThenInclude(k => k.Ogrenci)
+						.Select(k => new KursViewModel
+						{
+							KursId = k.KursId,
+							Baslik = k.Baslik,
+							OgretmenId = k.OgretmenId,
+							KursKayitlari = k.KursKayitlari
+						})
+						.FirstOrDefaultAsync(k => k.KursId == id);
+
 			if (kurs == null)
 			{
 				return NotFound();
 			}
+
+			ViewBag.Ogretmenler = new SelectList(await _context.Ogretmenler.ToListAsync(), "OgretmenId", "AdSoyad");
+
 			return View(kurs);
 		}
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Edit(int id, Kurs model)
+		public async Task<IActionResult> Edit(int id, KursViewModel model)
 		{
 			if (id != model.KursId)
 			{
@@ -62,10 +79,10 @@ namespace EFCoreApp.Controllers
 			{
 				try
 				{
-					_context.Update(model);
+					_context.Update(new Kurs() { KursId = model.KursId, Baslik = model.Baslik, OgretmenId = model.OgretmenId });
 					await _context.SaveChangesAsync();
 				}
-				catch (DbUpdateConcurrencyException)
+				catch (DbUpdateException)
 				{
 					if (!_context.Kurslar.Any(o => o.KursId == model.KursId))
 					{
@@ -82,7 +99,7 @@ namespace EFCoreApp.Controllers
 			return View(model);
 		}
 
-	
+		[HttpGet]
 		public async Task<IActionResult> Delete(int? id)
 		{
 			if (id == null)
@@ -100,7 +117,6 @@ namespace EFCoreApp.Controllers
 			return View(kurs);
 		}
 
-
 		[HttpPost]
 		public async Task<IActionResult> Delete([FromForm] int id)
 		{
@@ -109,12 +125,9 @@ namespace EFCoreApp.Controllers
 			{
 				return NotFound();
 			}
-
 			_context.Kurslar.Remove(kurs);
 			await _context.SaveChangesAsync();
 			return RedirectToAction("Index");
-
 		}
-
 	}
 }

@@ -11,6 +11,7 @@
 		<tr>
 			<th style="width:150px">Kurs ID</th>
 			<th>Kurs Adı</th>
+			<th>Öğretmen Adı</th>
 			<th style="width:150px">Kontroller</th>
 			
 		</tr>
@@ -21,6 +22,7 @@
 			<tr>
 				<td>@Html.DisplayFor(modelItem => item.KursId)</td>
 				<td>@Html.DisplayFor(modelItem => item.Baslik)</td>
+				<td>@Html.DisplayFor(modelItem => item.Ogretmen.AdSoyad)</td>
 				<td>
 					<a asp-controller="Kurs" asp-action="Edit" asp-route-id="@item.KursId" class="btn btn-sm btn-primary">Edit</a>
 					<a asp-action="Delete" asp-route-id="@item.KursId" class="btn btn-sm btn-danger">Delete</a>
