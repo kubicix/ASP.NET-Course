@@ -28,11 +28,17 @@ namespace EFCoreApp.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Create(Kurs model)
+		public async Task<IActionResult> Create(KursViewModel model)
 		{
-			_context.Kurslar.Add(model);
-			await _context.SaveChangesAsync();
-			return RedirectToAction("Index");
+			if (ModelState.IsValid)
+			{
+				_context.Kurslar.Add(new Kurs() { KursId = model.KursId, Baslik = model.Baslik, OgretmenId = model.OgretmenId });
+				await _context.SaveChangesAsync();
+				return RedirectToAction("Index");
+			}
+			ViewBag.Ogretmenler = new SelectList(await _context.Ogretmenler.ToListAsync(), "OgretmenId", "AdSoyad");
+			return View(model);
+			
 		}
 
 		[HttpGet]
@@ -95,7 +101,7 @@ namespace EFCoreApp.Controllers
 				}
 				return RedirectToAction("Index");
 			}
-
+			ViewBag.Ogretmenler = new SelectList(await _context.Ogretmenler.ToListAsync(), "OgretmenId", "AdSoyad");
 			return View(model);
 		}
 
